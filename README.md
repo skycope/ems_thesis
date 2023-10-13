@@ -1,2 +1,6 @@
 # An Agent-Based Model of The Emergency Medical Services System in Nelson Mandela Bay
-Agent-Based Simulation model functions, data loading functions, and code used to run sensitivity and scenario analyses. 
+This GitHub repository contains the scripts used to run the base model and conduct the scenario analysis. It does not contain any input data.
+
+- **model_functions.py** contains all the functions used by the Agent-Based Model, including *run_sim()*, which runs the model itself.
+- **scenarios.py** runs the model for the base scenario, as well as for additional scenarios, with parameter values specified in a [Google Sheet](https://docs.google.com/spreadsheets/d/1Urk8KPvZEouzupBZm7YBi60_bBvgJy3O5jjzCZfnMZE/edit?usp=sharing).
+- **
